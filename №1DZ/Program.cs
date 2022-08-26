@@ -6,7 +6,9 @@
         arr[i] = Convert.ToInt32(Console.ReadLine());
     }
 }
-
+Console.WriteLine("Введите размер массива: ");
+int M = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите массив: ");
 void PrintArray (int [] arr)
 {
     int length = arr.Length;
@@ -15,7 +17,7 @@ void PrintArray (int [] arr)
         Console.Write($"{arr [i]} ");
     }
 }
-int [] array = new int [8];
+int [] array = new int [M];
 FillArray(array);
 PrintArray(array);
 
