@@ -1,0 +1,17 @@
+﻿Console.WriteLine("введите k1: ");
+int k1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введите b1: ");
+int b1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введите k2:");
+int k2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введите b2: ");
+int b2 = Convert.ToInt32(Console.ReadLine());
+double y = 0;
+double k = k1 - k2;
+double  b = b2 - b1;
+double x = b / k;
+y = k1 * x + b1;
+Console.WriteLine("Точка пересечения: ");
+Console.Write(x);
+Console.Write(" , ");
+Console.Write(y);
