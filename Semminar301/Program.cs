@@ -1,4 +1,6 @@
-﻿Console.Write("Введите высоту матрицы ");
+﻿//задание матрицы с заполнением I + J
+
+Console.Write("Введите высоту матрицы ");
 int m = int.Parse(Console.ReadLine());
 Console.Write("Введите ширину матрицы ");
 int n = int.Parse(Console.ReadLine());
